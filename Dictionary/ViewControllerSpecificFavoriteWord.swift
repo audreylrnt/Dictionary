@@ -38,6 +38,7 @@ class ViewControllerSpecificFavoriteWord: UIViewController, UITableViewDataSourc
         request.addValue("Token aa356066e62d5f18ee86d0eb4e3a2eb19a96532f"
             , forHTTPHeaderField: "Authorization")
         let session = URLSession.shared
+        
         let task = session.dataTask(with: request) {(data, response, error) in
             if(error != nil) {
                 print("Something wrong! \(String(describing: error?.localizedDescription))")

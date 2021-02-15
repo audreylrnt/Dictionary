@@ -10,7 +10,7 @@
 import Foundation
 import CoreData
 
-
+ 
 public class FavoriteWord: NSManagedObject {
 
 }

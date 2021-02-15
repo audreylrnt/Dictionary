@@ -80,6 +80,7 @@ class ViewControllerFavoriteWord: UIViewController, UITableViewDataSource, UITab
         cell?.textLabel?.text = arrFavWord[indexPath.row].wordName
         return cell!
     }
+    
     /*
     // MARK: - Navigation
 

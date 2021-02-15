@@ -50,7 +50,7 @@ class ViewControllerSearch: UIViewController, UITableViewDataSource, UITableView
         alertOn.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         self.present(alertOn, animated: true, completion: nil)
     }
-    
+     
     func addToFavorite() {
         let appDelegate = UIApplication.shared.delegate as!AppDelegate
         let context = appDelegate.persistentContainer.viewContext

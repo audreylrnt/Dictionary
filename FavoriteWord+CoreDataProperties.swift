@@ -16,7 +16,7 @@ extension FavoriteWord {
     @nonobjc public class func fetchRequest() -> NSFetchRequest<FavoriteWord> {
         return NSFetchRequest<FavoriteWord>(entityName: "FavoriteWord")
     }
-
+ 
     @NSManaged public var wordName: String?
 
 }
